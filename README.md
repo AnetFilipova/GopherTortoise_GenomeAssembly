@@ -1,6 +1,6 @@
 ## Gopher tortoise (*Gopherus polyphemus*) Genome Assembly
 
-** Aim:** There is no genome available for the gopher tortoise so here we aim to assemble two separate genomes from two individuals that have either experienced a cold-dormancy winter or have not.
+**Aim:** There is no genome available for the gopher tortoise so here we aim to assemble two separate genomes from two individuals that have either experienced a cold-dormancy winter or have not.
 
 ## Background
 This project is part of the bigger project: **Exploring molecular memory: investigating the short-term impact of first-year cold dormancy on the transcriptomic responses and epigenetic regulation in head-started gopher tortoises.**
