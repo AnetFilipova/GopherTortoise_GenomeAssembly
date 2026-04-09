@@ -133,4 +133,4 @@ flavomarginatus* genome size (~2.4 GB) and generates a bar chart
 comparing coverage depth between the two subsets. Output:
 - `coverage_comparison.png`
 
-![Coverage Depth Comparison](results/coverage_comparison.png)
+![Coverage Depth Comparison](coverage_comparison.png)
