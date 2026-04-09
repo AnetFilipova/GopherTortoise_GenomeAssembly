@@ -22,6 +22,12 @@ Map Nanopore reads from individual GT_7.4_B against the Bolson (Mexican) tortois
 
 ## How to Run
 
+**Note** — Before running any scripts, make sure to load the required modules:
+```bash
+module load minimap2
+module load samtools
+```
+
 **`genome_mapping_utils.py`** — Utility module (imported by all scripts)
 
 This is a custom Python module that is 
@@ -111,6 +117,24 @@ Optionally, you can run the script on a single subset:
 ```bash
 python3 03_summarize_results.py small
 python3 03_summarize_results.py large
+```
+
+Summary output:
+```
+============================================================
+Alignment Summary: Small vs Large Subset
+Sample: FBE04231 (Gopherus polyphemus - GT_7.4_B)
+Reference: Gopherus flavomarginatus
+============================================================
+Metric               Small (13 files)     Large (135 files)   
+------------------------------------------------------------
+Total reads          99155                557167              
+Total bases          915983241            5143354380          
+Mapped reads         98774                554792              
+Mapping rate         99.62%               99.57%              
+Mean length          9238                 9231                
+Error rate           8.991192e-02         9.128807e-02        
+============================================================
 ```
 
 ---
