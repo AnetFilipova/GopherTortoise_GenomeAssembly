@@ -88,7 +88,8 @@ python3 03_summarize_results.py
 This script runs `samtools stats` on both BAM files and uses regular 
 expressions to extract key alignment metrics including total reads, 
 total bases, mapped reads, mapping rate, mean read length, and error 
-rate. It then writes a formatted comparison table to:
+rate. It then writes a comparison table:
+
 - `alignment_summary.txt`
 
 The following metrics are extracted and compared between the two subsets:
@@ -110,7 +111,7 @@ The following metrics are extracted and compared between the two subsets:
 - **Error rate** — the percentage of bases that do not match the
   reference genome. This includes both true biological differences
   between the individual and the reference and sequencing errors
-  introduced by the Nanopore technology.The following metrics are extracted and compared between the two subsets:
+  introduced by the Nanopore technology. The following metrics are extracted and compared between the two subsets:
 
 
 Optionally, you can run the script on a single subset:
